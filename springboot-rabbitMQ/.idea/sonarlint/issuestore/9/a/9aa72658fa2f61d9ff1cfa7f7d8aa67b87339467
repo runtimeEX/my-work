@@ -1,18 +1,0 @@
-
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(’ˆøÜÿÿÿÿÿ8²ö˜Éà/
-v
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(šŒñ¨8Ø…ÕÏß/
-U	java:S106/"9Replace this use of System.out or System.err by a logger.(ı§Ïá8ÿî¦Ëä/
-r
-java:S1192"PDefine a constant instead of duplicating this literal "æå“é²œæ¯›è‚š" 5 times.(ä™Õ„ıÿÿÿÿ8Ø…ÕÏß/
-F
-java:S21408")Use "java.util.Random.nextInt()" instead.(òÒ‡µ8ş¶ÖÏß/
-]	java:S1253"<This block of commented-out lines of code should be removed.(¸†¯›úÿÿÿÿ8ÿî¦Ëä/
-U	java:S106>"9Replace this use of System.out or System.err by a logger.(öÈÛ¡8‡ùÚ â/
-U	java:S106:"9Replace this use of System.out or System.err by a logger.(ĞæÈÍ8ŸÉ”—â/
-m
-java:S11920"KDefine a constant instead of duplicating this literal "4004782164" 3 times.(Èóû‡øÿÿÿÿ8ÿî¦Ëä/
-H
-java:S1135"2Complete the task associated to this TODO comment.(Üğ£Å
-Z	java:S1061"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8ÿî¦Ëä/
-Z	java:S106="9Replace this use of System.out or System.err by a logger.(ŞÆ­Ûşÿÿÿÿ8‡ùÚ â/
