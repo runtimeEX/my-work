@@ -9,6 +9,8 @@ logs/*
 
 *.class
 
+*.iml
+
 # Log file
 *.log
 
