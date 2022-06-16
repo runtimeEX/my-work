@@ -7,9 +7,9 @@ spring:
       filters: stat
       driver-class-name: com.mysql.jdbc.Driver
       #基本属性
-      url: jdbc:mysql://aoldman.com:3306/rabbitmq?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false
+      url: jdbc:mysql://runtimex.vip:3306/rabbitmq?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false
       username: root
-      password: Zhou666!
+      password: zhouhao
       #配置初始化大小/最小/最大
       initial-size: 1
       min-idle: 1
