@@ -61,11 +61,18 @@
             <artifactId>guava</artifactId>
             <version>30.0-jre</version>
         </dependency>
-        <dependency>
+       <!-- <dependency>
             <groupId>com.tengxun</groupId>
             <artifactId>sdk4j</artifactId>
             <version>1.0</version>
-        </dependency>
+        </dependency>-->
     </dependencies>
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>
