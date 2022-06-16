@@ -1,0 +1,11 @@
+
+\
+java:S1192B"FDefine a constant instead of duplicating this literal "kucun" 3 times.(Ç£ş
+t
+java:S1488$"YImmediately return this expression instead of assigning it to the temporary variable "o".(áç ùÿÿÿÿ
+v
+java:S1488,"aImmediately return this expression instead of assigning it to the temporary variable "goodsList".(ı¼Şd
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(¡Íùã
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(¿è®Î
+N	java:S106E"9Replace this use of System.out or System.err by a logger.(Ãıƒ³
+M	java:S106G"9Replace this use of System.out or System.err by a logger.(ı„

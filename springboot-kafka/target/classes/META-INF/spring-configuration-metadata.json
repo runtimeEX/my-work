@@ -1,0 +1,90 @@
+{
+  "groups": [
+    {
+      "name": "app.operate.log",
+      "type": "com.kafka.log.conf.OperateLogProperties",
+      "sourceType": "com.kafka.log.conf.OperateLogProperties"
+    },
+    {
+      "name": "app.operate.log.receive",
+      "type": "com.kafka.log.conf.OperateLogProperties$Receive",
+      "sourceType": "com.kafka.log.conf.OperateLogProperties"
+    },
+    {
+      "name": "locale",
+      "type": "com.kafka.conf.message.LocaleProperties",
+      "sourceType": "com.kafka.conf.message.LocaleProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.operate.log.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否开启 true\/false",
+      "sourceType": "com.kafka.log.conf.OperateLogProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "app.operate.log.exclude-uri",
+      "type": "java.util.Set<java.lang.String>",
+      "description": "该设置路径地址，都不记录任何操作日志, 如果路径里包含 注解，则还是会用注解",
+      "sourceType": "com.kafka.log.conf.OperateLogProperties"
+    },
+    {
+      "name": "app.operate.log.model",
+      "type": "java.lang.String",
+      "description": "操作日志模式，GLOBAL 所有的都记录日志， PART 只有使用注解的日志",
+      "sourceType": "com.kafka.log.conf.OperateLogProperties",
+      "defaultValue": "GLOBAL"
+    },
+    {
+      "name": "app.operate.log.receive.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否开启 true\/false",
+      "sourceType": "com.kafka.log.conf.OperateLogProperties$Receive",
+      "defaultValue": false
+    },
+    {
+      "name": "app.operate.log.topic",
+      "type": "java.lang.String",
+      "description": "topic名称",
+      "sourceType": "com.kafka.log.conf.OperateLogProperties"
+    },
+    {
+      "name": "locale.basenames",
+      "type": "java.lang.String[]",
+      "sourceType": "com.kafka.conf.message.LocaleProperties"
+    },
+    {
+      "name": "locale.cache-seconds",
+      "type": "java.lang.Integer",
+      "sourceType": "com.kafka.conf.message.LocaleProperties",
+      "defaultValue": 3600
+    },
+    {
+      "name": "locale.cookie-name",
+      "type": "java.lang.String",
+      "sourceType": "com.kafka.conf.message.LocaleProperties",
+      "defaultValue": "NG_TRANSLATE_LANG_KEY"
+    },
+    {
+      "name": "locale.default-encoding",
+      "type": "java.lang.String",
+      "sourceType": "com.kafka.conf.message.LocaleProperties",
+      "defaultValue": "UTF-8"
+    },
+    {
+      "name": "locale.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.kafka.conf.message.LocaleProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "locale.param-name",
+      "type": "java.lang.String",
+      "sourceType": "com.kafka.conf.message.LocaleProperties",
+      "defaultValue": "language"
+    }
+  ],
+  "hints": []
+}

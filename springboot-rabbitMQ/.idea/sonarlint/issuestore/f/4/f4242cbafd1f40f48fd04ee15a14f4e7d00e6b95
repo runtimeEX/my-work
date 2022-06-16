@@ -1,0 +1,13 @@
+
+r
+java:S2629"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ÀÁ¾ä
+W
+java:S3457"AFormat specifiers should be used instead of string concatenation.(ÀÁ¾ä
+V
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(ŽûÍ8•‹øú©/
+E
+java:S5411#"*Use the primitive boolean expression here.(Õ‰½Ùÿÿÿÿÿ
+b
+java:S3252"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(Èè”8•‹øú©/
+S
+java:S1128">Remove this unused import 'com.rabbit.mq.conf.RabbitMqConfig'.(‰ºÞ}

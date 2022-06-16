@@ -1,0 +1,20 @@
+
+d	java:S100Ö"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù‚öö
+i	java:S100Ô"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë¤ÂÏşÿÿÿÿ
+d
+java:S1192­"HDefine a constant instead of duplicating this literal "default" 4 times.(Â©ˆşÿÿÿÿ
+i	java:S100•"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ıÅòıÿÿÿÿ
+W	java:S125—"<This block of commented-out lines of code should be removed.(íÂ¦üøÿÿÿÿ
+c	java:S100˜"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Á¼
+o
+java:S1192¼"SDefine a constant instead of duplicating this literal "message extras key" 5 times.(ê·ñåøÿÿÿÿ
+{
+java:S1192¢"_Define a constant instead of duplicating this literal "androidNotification extras key" 4 times.(âØ´Ãøÿÿÿÿ
+W	java:S125Ö"<This block of commented-out lines of code should be removed.(íÂ¦üøÿÿÿÿ
+H
+java:S1135"2Complete the task associated to this TODO comment.(Üğ£Å
+Q
+java:S26962"6Make the enclosing method "static" or remove this set.(—Ëåªıÿÿÿÿ
+w
+java:S1192¯"[Define a constant instead of duplicating this literal "iosNotification extras key" 4 times.(ëºÏÚûÿÿÿÿ
+i	java:S100…"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜í®ãıÿÿÿÿ

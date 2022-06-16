@@ -1,0 +1,7 @@
+logging:
+  pattern:
+    console: "%date{yyyy-MM-dd HH:mm:ss.SSS} %X{traceId} [%thread] %highlight(%-5level) %cyan(%logger{64}) [%line]- %msg%n"
+  level:
+    org.springframework: info
+    com.kafka: info
+  config: classpath:log/logback-spring.xml

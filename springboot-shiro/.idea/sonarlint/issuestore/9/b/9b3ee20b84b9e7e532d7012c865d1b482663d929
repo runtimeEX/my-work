@@ -1,0 +1,11 @@
+
+r
+java:S1488"]Immediately return this expression instead of assigning it to the temporary variable "token".(ύ¤ή
+y
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "claims".(ΥªΙ³ϊÿÿÿÿ
+h
+java:S2184"FCast one of the operands of this multiplication operation to a "long".(Ιτ«ύÿÿÿÿ8τη†ι΅/
+P
+java:S1118	":Add a private constructor to hide the implicit public one.(¦ϋΒ
+A
+java:S1168""$Return an empty map instead of null.(¥Ήο8£ό–0
