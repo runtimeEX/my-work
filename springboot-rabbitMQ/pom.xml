@@ -99,6 +99,7 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.30</version>
         </dependency>
+
         <!--极光推送jar-->
         <dependency>
             <groupId>cn.jpush.api</groupId>
