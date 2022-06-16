@@ -1,13 +1,0 @@
-
-X	java:S125?"<This block of commented-out lines of code should be removed.( Ú¼¸8ÕÍÛ£/
-j	java:S100m"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾€ªè8ÕÍÛ£/
-•
-java:S1488}"sImmediately return this expression instead of assigning it to the temporary variable "horizontalCellStyleStrategy".(•øÂøÿÿÿÿ8ÕÍÛ£/
-V
-java:S1144T"4Remove this unused private "fillStrategyMap" method.(àß·Èşÿÿÿÿ8ÕÍÛ£/
-N
-java:S1602.",Remove useless curly braces around statement(ÉŒÕøÿÿÿÿ8ÕÍÛ£/
-H
-java:S1135"2Complete the task associated to this TODO comment.(Üğ£Å
-v
-java:S1450"TRemove the "sheet" field and declare it as a local variable in the relevant methods.(ÚÚÕêøÿÿÿÿ8ÕÍÛ£/
