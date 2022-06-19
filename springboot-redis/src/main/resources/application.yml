@@ -7,7 +7,7 @@ spring:
       filters: stat
       driver-class-name: com.mysql.jdbc.Driver
       #基本属性
-      url: jdbc:mysql://runtimex.vip:3306/rabbitmq?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false
+      url: jdbc:mysql://runtimex.vip:3306/order?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false
       username: root
       password: zhouhao
       #配置初始化大小/最小/最大
@@ -28,6 +28,6 @@ spring:
       pool-prepared-statements: false
       max-pool-prepared-statement-per-connection-size: 20
   redis:
-    host: aoldman.com
+    host: runtimex.vip
     password: zhouhao
     database: 3
