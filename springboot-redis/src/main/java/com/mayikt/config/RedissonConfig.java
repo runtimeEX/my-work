@@ -48,7 +48,7 @@ public class RedissonConfig {
             }
             serverConfig.setDatabase(redisProperties.getDatabase());
         }
-        //看门狗的锁续期时间，默认30000ms，这里配置成15000ms
+        //看门狗的锁续期时间，默认30000ms，这里配置成15000ms 不指定过期时间会启用看门狗线程
         config.setLockWatchdogTimeout(15000);
         return Redisson.create(config);
     }
