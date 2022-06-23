@@ -1,5 +1,7 @@
 package com.boss.wx.utils;
 
+import cn.hutool.core.net.url.UrlBuilder;
+import cn.hutool.core.util.URLUtil;
 import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.lang3.StringUtils;
 
