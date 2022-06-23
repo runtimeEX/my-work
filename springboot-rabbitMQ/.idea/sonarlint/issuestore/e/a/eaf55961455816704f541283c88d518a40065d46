@@ -1,0 +1,93 @@
+
+Q
+java:S1444"/Make this "public static CLIENT_ID" field final(ßŞ‹˜øÿÿÿÿ8ÛïÎß/
+[	java:S106"9Replace this use of System.out or System.err by a logger.(ô†Ì¸ıÿÿÿÿ8ÛïÎß/
+n	java:S117»"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãø’ø8ÛïÎß/
+U
+java:S1444!"3Make this "public static refresh_token" field final(ˆ³ìŠøÿÿÿÿ8ÛïÎß/
+s	java:S117Í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´İÁÊıÿÿÿÿ8ÛïÎß/
+n	java:S117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ÈÔ„8ÛïÎß/
+s	java:S117Û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰‡¡Õÿÿÿÿÿ8ÛïÎß/
+R
+java:S2696;"6Make the enclosing method "static" or remove this set.(ª¶»8ÛïÎß/
+R
+java:S2696G"6Make the enclosing method "static" or remove this set.(ª¶»8ÛïÎß/
+n	java:S117Ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ÒÅ”8ÛïÎß/
+v
+java:S1104"YMake CLIENT_SECRET a static final constant or non-public and provide accessors if needed.(®ıüú8ÛïÎß/
+s	java:S117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û†Éùşÿÿÿÿ8ÛïÎß/
+m	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûí˜8ÛïÎß/
+m	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûí˜8ÛïÎß/
+{
+java:S1104!"YMake refresh_token a static final constant or non-public and provide accessors if needed.(ˆ³ìŠøÿÿÿÿ8ÛïÎß/
+M
+java:S1444"+Make this "public static token" field final(¿şçÍûÿÿÿÿ8ÛïÎß/
+s	java:S117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û†Éùşÿÿÿÿ8ÛïÎß/
+s	java:S117­"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Œûÿÿÿÿ8ÛïÎß/
+u
+java:S3008"XRename this field "CLIENT_SECRET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ıüú8ÛïÎß/
+m	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ—Ãş8ÛïÎß/
+S
+java:S2696r"6Make the enclosing method "static" or remove this set.(Ûêº¢8ÛïÎß/
+n	java:S117±"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ¿8ÛïÎß/
+z
+java:S3008!"XRename this field "refresh_token" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ³ìŠøÿÿÿÿ8ÛïÎß/
+s	java:S117é"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôİşÆüÿÿÿÿ8ÛïÎß/
+n	java:S117Ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ÒÅ”8ÛïÎß/
+k
+java:S1192["NDefine a constant instead of duplicating this literal "refresh_token" 4 times.(Ûêº¢8ÛïÎß/
+T
+java:S2696Š"6Make the enclosing method "static" or remove this set.(Ûêº¢8ÛïÎß/
+k
+java:S3008&"ORename this field "CODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áºës8ÛïÎß/
+n	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äşÂÙ8ÛïÎß/
+s	java:S117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ«·Óûÿÿÿÿ8ÛïÎß/
+s	java:S117Û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰‡¡Õÿÿÿÿÿ8ÛïÎß/
+X
+java:S2696Z"6Make the enclosing method "static" or remove this set.(‚šüıÿÿÿÿ8ÛïÎß/
+n	java:S117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öé¥â8ÛïÎß/
+o
+java:S1192Z"MDefine a constant instead of duplicating this literal "access_token" 3 times.(‚šüıÿÿÿÿ8ÛïÎß/
+n	java:S117±"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ¿8ÛïÎß/
+l
+java:S1104&"PMake CODE a static final constant or non-public and provide accessors if needed.(Áºës8ÛïÎß/
+s	java:S117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ«·Óûÿÿÿÿ8ÛïÎß/
+s	java:S117é"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôİşÆüÿÿÿÿ8ÛïÎß/
+Y
+java:S2696‰"6Make the enclosing method "static" or remove this set.(‚šüıÿÿÿÿ8ÛïÎß/
+b
+java:S3252‡"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(ã½§78öò›Îß/
+s
+java:S1104"QMake token a static final constant or non-public and provide accessors if needed.(¿şçÍûÿÿÿÿ8ÛïÎß/
+n	java:S117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öé¥â8ÛïÎß/
+F
+java:S1444&"*Make this "public static CODE" field final(Áºës8ÛïÎß/
+m	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ—Ãş8ÛïÎß/
+S
+java:S2696="6Make the enclosing method "static" or remove this set.(Î˜¯•8ÛïÎß/
+n	java:S117À"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë™8ÛïÎß/
+X
+java:S2696H"6Make the enclosing method "static" or remove this set.(‡Ç¾ôşÿÿÿÿ8ÛïÎß/
+s	java:S117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛùÖúÿÿÿÿ8ÛïÎß/
+S
+java:S2696["6Make the enclosing method "static" or remove this set.(Ûêº¢8ÛïÎß/
+X
+java:S2696q"6Make the enclosing method "static" or remove this set.(‚šüıÿÿÿÿ8ÛïÎß/
+w
+java:S1104"UMake CLIENT_ID a static final constant or non-public and provide accessors if needed.(ßŞ‹˜øÿÿÿÿ8ÛïÎß/
+v
+java:S3008"TRename this field "CLIENT_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßŞ‹˜øÿÿÿÿ8ÛïÎß/
+U	java:S106^"9Replace this use of System.out or System.err by a logger.(˜½È£8ÛïÎß/
+P
+java:S1444"3Make this "public static CLIENT_SECRET" field final(®ıüú8ÛïÎß/
+a
+java:S3252o"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(ã½§78¨“œÎß/
+s	java:S117­"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Œûÿÿÿÿ8ÛïÎß/
+U	java:S106t"9Replace this use of System.out or System.err by a logger.(½Û÷Ã8µ×¨Èà/
+X
+java:S2696<"6Make the enclosing method "static" or remove this set.(‡Ç¾ôşÿÿÿÿ8ÛïÎß/
+H
+java:S1135"2Complete the task associated to this TODO comment.(Üğ£Å
+a
+java:S3252X"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(ã½§78í±›Îß/
+n	java:S117ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¤Õ±8ÛïÎß/

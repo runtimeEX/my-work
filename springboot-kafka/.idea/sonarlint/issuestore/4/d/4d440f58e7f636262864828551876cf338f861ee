@@ -1,0 +1,24 @@
+
+P
+java:S1191"5Use classes from the Java API instead of Sun classes.(Ó¨Ôÿÿÿÿÿ
+H
+java:S1135"2Complete the task associated to this TODO comment.(Üğ£Å
+=
+java:S3329="'Use a dynamically-generated, random IV.(ú¿„ä
+O
+java:S4719="9Replace charset name argument with StandardCharsets.UTF_8(ú¿„ä
+T
+java:S4719?"9Replace charset name argument with StandardCharsets.UTF_8(‡À…ùÿÿÿÿ
+Q	java:S125B"<This block of commented-out lines of code should be removed.(·ú˜ˆ
+C	java:S108I")Either remove or fill this block of code.(±Ÿ—±ÿÿÿÿÿ
+O
+java:S4719\"9Replace charset name argument with StandardCharsets.UTF_8(ú¿„ä
+Q	java:S125^"<This block of commented-out lines of code should be removed.(·ú˜ˆ
+O
+java:S4719d"9Replace charset name argument with StandardCharsets.UTF_8(Ú†ò”
+C	java:S108e")Either remove or fill this block of code.(±Ÿ—±ÿÿÿÿÿ
+W	java:S125Œ"<This block of commented-out lines of code should be removed.(¿ÒèÖøÿÿÿÿ
+T	java:S106—"9Replace this use of System.out or System.err by a logger.(Ç÷æ¢øÿÿÿÿ
+O	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(‰ôÂÔ
+O	java:S106¡"9Replace this use of System.out or System.err by a logger.(šÆ²ú
+N	java:S106¢"9Replace this use of System.out or System.err by a logger.(°Œëd

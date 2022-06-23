@@ -1,0 +1,38 @@
+
+N
+java:S1444",Make this "public static SMoney" field final(ƒ’‡ûÿÿÿÿ8ÁÈÏß/
+n
+java:S3008"QRename this field "ZMoney" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È»ş¨8ÁÈÏß/
+s
+java:S3008"QRename this field "YMoney" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸­²÷ùÿÿÿÿ8ÁÈÏß/
+P
+java:S1444".Make this "public static testList" field final(èá€şÿÿÿÿ8ÁÈÏß/
+\
+java:S1118":Add a private constructor to hide the implicit public one.(™•¥°ûÿÿÿÿ8Æ”ªà/
+I
+java:S1444",Make this "public static ZMoney" field final(È»ş¨8ÁÈÏß/
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(èá€şÿÿÿÿ8ÁÈÏß/
+s
+java:S3008"QRename this field "SMoney" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ’‡ûÿÿÿÿ8ÁÈÏß/
+H
+java:S1135"2Complete the task associated to this TODO comment.(Üğ£Å
+o
+java:S1104"RMake ZMoney a static final constant or non-public and provide accessors if needed.(È»ş¨8ÁÈÏß/
+t
+java:S1104"RMake YMoney a static final constant or non-public and provide accessors if needed.(¸­²÷ùÿÿÿÿ8ÁÈÏß/
+t
+java:S1104"RMake SMoney a static final constant or non-public and provide accessors if needed.(ƒ’‡ûÿÿÿÿ8ÁÈÏß/
+?
+java:S2386"Make this member "protected".(èá€şÿÿÿÿ8óÍÏß/
+N
+java:S1444",Make this "public static YMoney" field final(¸­²÷ùÿÿÿÿ8ÁÈÏß/
+…
+java:S1192"hDefine a constant instead of duplicating this literal "------------------------------------\r
+" 3 times.(â’äş8ÁÈÏß/
+c
+java:S1192*"FDefine a constant instead of duplicating this literal "</tr>" 4 times.(Ààô÷8Şá©à/
+i
+java:S1192#"GDefine a constant instead of duplicating this literal "</td>" 12 times.(ô¹²åùÿÿÿÿ8ÁÈÏß/
+v
+java:S1104"TMake testList a static final constant or non-public and provide accessors if needed.(èá€şÿÿÿÿ8ÁÈÏß/

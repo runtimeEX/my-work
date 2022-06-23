@@ -1,0 +1,32 @@
+
+g	java:S1127"FDefine and throw a dedicated exception instead of using a generic one.(®îÆ¡ÿÿÿÿÿ8ûÓü²”/
+b	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(›”çÇ8ûÓü²”/
+n
+java:S1192+"LDefine a constant instead of duplicating this literal "|partition:" 3 times.(î«µ¯üÿÿÿÿ8ûÓü²”/
+k
+java:S1192+"IDefine a constant instead of duplicating this literal "|offset:" 3 times.(î«µ¯üÿÿÿÿ8ûÓü²”/
+j
+java:S1192+"HDefine a constant instead of duplicating this literal "|value:" 3 times.(î«µ¯üÿÿÿÿ8ûÓü²”/
+H
+java:S1135"2Complete the task associated to this TODO comment.(Üğ£Å
+\
+java:S6213":Rename this variable to not match a restricted identifier.(ğüºïÿÿÿÿÿ8°†ƒµ–0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(«»¹é8Ïµ÷Å/
+\
+java:S6213":Rename this variable to not match a restricted identifier.(ºĞãıÿÿÿÿ8´†ƒµ–0
+T	java:S106!"9Replace this use of System.out or System.err by a logger.(ôù#8ûÓü²”/
+W
+java:S6213*":Rename this variable to not match a restricted identifier.(­Âô8¸†ƒµ–0
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(î«µ¯üÿÿÿÿ8ûÓü²”/
+U	java:S1061"9Replace this use of System.out or System.err by a logger.(«¼ŠÎ8ûÓü²”/
+\
+java:S62132":Rename this variable to not match a restricted identifier.(ÿŸöÚüÿÿÿÿ8½†ƒµ–0
+Z	java:S1063"9Replace this use of System.out or System.err by a logger.(Ğ‡ó´şÿÿÿÿ8ûÓü²”/
+Z	java:S106?"9Replace this use of System.out or System.err by a logger.(ÊÿˆŒşÿÿÿÿ8Ô‚ë±”/
+\
+java:S6213@":Rename this variable to not match a restricted identifier.(ÿŸöÚüÿÿÿÿ8Á†ƒµ–0
+Z	java:S106A"9Replace this use of System.out or System.err by a logger.(Ìˆ˜øÿÿÿÿ8ÅŸå²”/
+Z	java:S106G"9Replace this use of System.out or System.err by a logger.(È½“üÿÿÿÿ8Û­ì±”/
+\
+java:S6213H":Rename this variable to not match a restricted identifier.(ÿŸöÚüÿÿÿÿ8Æ†ƒµ–0
+Z	java:S106I"9Replace this use of System.out or System.err by a logger.(õÓçúÿÿÿÿ8ÅŸå²”/
