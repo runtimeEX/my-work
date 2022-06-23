@@ -1,9 +1,0 @@
-
-h	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä’íÇùÿÿÿÿ
-R
-java:S2209I"5Change this instance-reference to a static reference.(‰µÎ8ÚÛÄĞ/
-h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êä½ıÿÿÿÿ
-E	java:S108J")Either remove or fill this block of code.(”ı¾8ÚÛÄĞ/
-R
-java:S2209X"5Change this instance-reference to a static reference.(ÂÂ¡‡8ÚÛÄĞ/
-E	java:S108Y")Either remove or fill this block of code.(”ı¾8ÚÛÄĞ/

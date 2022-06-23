@@ -1,33 +1,0 @@
-
-W
-java:S2864‰"4Iterate over the "entrySet" instead of the "keySet".(½Ö²’ûÿÿÿÿ8”²…Îß/
-M
-java:S2093°"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8Õ·‚Îß/
-\
-java:S1118":Add a private constructor to hide the implicit public one.(ë¢ñãûÿÿÿÿ8á­Îß/
-?
-java:S1643‘"Use a StringBuilder instead.(¦í°—øÿÿÿÿ8á­Îß/
-H
-java:S1135"2Complete the task associated to this TODO comment.(Üğ£Å
-Z	java:S106T"9Replace this use of System.out or System.err by a logger.(˜É„üÿÿÿÿ8á­Îß/
-\
-java:S1854P"?Remove this useless assignment to local variable "inputStream".(ø‹¨º8á­Îß/
-?
-java:S1643Ó"Use a StringBuilder instead.(¦í°—øÿÿÿÿ8á­Îß/
-[	java:S106"9Replace this use of System.out or System.err by a logger.(·ŒªÉøÿÿÿÿ8á­Îß/
-V	java:S106Ö"9Replace this use of System.out or System.err by a logger.(ğÂè‚8á­Îß/
-[	java:S106”"9Replace this use of System.out or System.err by a logger.(Ò‡‹òıÿÿÿÿ8á­Îß/
-S
-java:S2209·"5Change this instance-reference to a static reference.(ËÈä‰8ƒ´ƒÎß/
-m	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óê‘Š8á­Îß/
-U
-java:S4719E"9Replace charset name argument with StandardCharsets.UTF_8(İ½ÕV8Õ·‚Îß/
-V	java:S106Š"9Replace this use of System.out or System.err by a logger.(ˆ×°—8á­Îß/
-d
-java:S1192Ê"FDefine a constant instead of duplicating this literal "UTF-8" 3 times.(š¹‹¤8á­Îß/
-W
-java:S4719Ê"9Replace charset name argument with StandardCharsets.UTF_8(š¹‹¤8 Ú‚Îß/
-
-java:S11497"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¨âàøÿÿÿÿ8á­Îß/
-L
-java:S2093z"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8Õ·‚Îß/
