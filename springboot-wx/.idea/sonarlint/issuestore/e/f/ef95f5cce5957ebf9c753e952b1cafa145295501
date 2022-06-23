@@ -1,0 +1,24 @@
+
+^
+java:S1075ò"ARefactor your code to get this URI from a customizable parameter.(éş§>8’‹Ô°Â/
+O
+java:S1135"2Complete the task associated to this TODO comment.(Üğ£Å8’‹Ô°Â/
+g	java:S112G"FDefine and throw a dedicated exception instead of using a generic one.(Ã¬Ôıÿÿÿÿ8’‹Ô°Â/
+y
+java:S1149İ"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Ë× ‡úÿÿÿÿ8’‹Ô°Â/
+d
+java:S1075ñ"ARefactor your code to get this URI from a customizable parameter.(”ßÒÆüÿÿÿÿ8¶—Î°Â/
+v
+java:S2293&"YReplace the type specification in this constructor call with the diamond operator ("<>").(ç›Ò÷8’‹Ô°Â/
+s
+java:S1149&"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ç›Ò÷8’‹Ô°Â/
+C
+java:S1075z"&Remove this hard-coded path-delimiter.(ôÙ®8’‹Ô°Â/
+Z	java:S106J"9Replace this use of System.out or System.err by a logger.(ÒˆÆÉıÿÿÿÿ8’‹Ô°Â/
+V	java:S106ó"9Replace this use of System.out or System.err by a logger.(Ø´…Õ8¡â…±Â/
+|
+java:S2293İ"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ë× ‡úÿÿÿÿ8’‹Ô°Â/
+
+java:S1488à"aImmediately return this expression instead of assigning it to the temporary variable "resultStr".(¨Ğ×Š8’‹Ô°Â/
+h	java:S112Ô"FDefine and throw a dedicated exception instead of using a generic one.(¸†Çâıÿÿÿÿ8’‹Ô°Â/
+^	java:S125õ"<This block of commented-out lines of code should be removed.(¹ÚÌÿÿÿÿÿ8äáŒ±Â/

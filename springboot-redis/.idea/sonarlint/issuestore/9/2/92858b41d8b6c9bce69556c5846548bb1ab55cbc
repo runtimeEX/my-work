@@ -1,0 +1,26 @@
+
+
+java:S11922"dDefine a constant instead of duplicating this literal "acquire redis occurred an exception" 4 times.(Šèªëúÿÿÿÿ
+l
+java:S1192!"VDefine a constant instead of duplicating this literal "locked... redisK = {}" 4 times.(ËÉ¬©
+P
+java:S1141("5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+P
+java:S1141["5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+V
+java:S2222]";Unlock this lock along all executions paths of this method.(‰²®áúÿÿÿÿ
+Q
+java:S2222";Unlock this lock along all executions paths of this method.(á©²Ô
+V
+java:S2222*";Unlock this lock along all executions paths of this method.(‰²®áúÿÿÿÿ
+Q
+java:S2222Q";Unlock this lock along all executions paths of this method.(á©²Ô
+y
+java:S21428"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ÄóŒ³şÿÿÿÿ
+t
+java:S21421"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾
+y
+java:S2142l"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ÄóŒ³şÿÿÿÿ
+X	java:S125R"<This block of commented-out lines of code should be removed.(½Í¼¨8‘Ó–÷—0
+t
+java:S2142d"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾

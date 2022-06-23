@@ -64,18 +64,22 @@ public class RedisLockUtil {
      * 加锁
      *
      * @param key           锁的 key
-     * @param value         value （ key + value 必须保证唯一）
-     * @param expire        key 的过期时间，单位 ms
+     * @param expire        key 的过期时间，单位 ms 不设置过期时间会开启看门狗线程
      * @param retryTimes    重试次数，即加锁失败之后的重试次数
      * @param retryInterval 重试时间间隔，单位 ms
      * @return 加锁 true 成功
+     *
+     * Lock和TryLock的区别
+     * 1:  lock拿不到锁会一直等待。tryLock是去尝试，拿不到就返回false，拿到返回true。
+     *
+     * 2:  tryLock是可以被打断的，被中断 的，lock是不可以。
      */
-    public boolean lock(String key, String value, long expire, int retryTimes, long retryInterval) {
+    public boolean tryLock(String key, long expire, int retryTimes, long retryInterval) {
         log.info("locking... redisK = {}", key);
-        RLock fairLock = redissonClient.getFairLock(key + ":" + value);
+        RLock fairLock = redissonClient.getFairLock(key);
         try {
             boolean tryLock = fairLock.tryLock(0, expire, TimeUnit.MILLISECONDS);
-            fairLock.lock();
+            //  fairLock.lock();
             if (tryLock) {
                 log.info("locked... redisK = {}", key);
                 return true;
@@ -98,7 +102,6 @@ public class RedisLockUtil {
                         break;
                     }
                 }
-
                 log.info("fail to acquire lock {}", key);
                 return false;
             }
@@ -113,8 +116,8 @@ public class RedisLockUtil {
      *
      * @return 释放锁 true 成功
      */
-    public boolean unlock(String key, String value) {
-        RLock fairLock = redissonClient.getFairLock(key + ":" + value);
+    public boolean unlock(String key) {
+        RLock fairLock = redissonClient.getFairLock(key);
         try {
             //如果这里抛异常，后续锁无法释放
             if (fairLock.isLocked()) {
