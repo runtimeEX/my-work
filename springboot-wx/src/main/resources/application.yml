@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /wx
+spring:
+  application:
+    name: wx
+
+app:
+  wx:
+    app-id: wxe8f195703df69ada
+    app-secret: e29c3c1e820f3510758987ad8d182b4e
+    app-url: https://api.weixin.qq.com/sns/jscode2session?appid={0}&secret={1}&js_code={2}&grant_type=authorization_code
+    accesstoken_url: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={0}&secret={1}
+    qrcode_url: https://api.weixin.qq.com/wxa/getwxacodeunlimit?access_token={0}
+
+
