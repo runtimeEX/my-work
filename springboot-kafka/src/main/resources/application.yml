@@ -45,7 +45,7 @@ locale:
 #2、订阅的 Topic 个数发生变化。
 #3、消费组内成员个数发生变化。例如有新的 consumer 实例加入该消费组或者离开组。
 app:
-  group:
+  pod: 3
   operate:
     log:
       enabled: true
