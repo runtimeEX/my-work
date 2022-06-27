@@ -77,6 +77,7 @@ public class KafkaController {
     }
 
     @GetMapping("/kafka/callbackTwo/{message}")
+    @Transactional
     public void sendMessage3(@PathVariable("message") String callbackMessage) {
         kafkaTemplate.send("topic1", callbackMessage).addCallback(new ListenableFutureCallback<SendResult<String, Object>>() {
             @Override

@@ -19,6 +19,7 @@ import java.util.List;
  */
 @Component
 public class Consumer {
+    String a="xxx";
     //  @KafkaListener(topics = {"boss"},containerFactory = "containerFactory")
     @KafkaListener(topicPartitions = {@TopicPartition(topic = "boss", partitions = {"0", "3"}, partitionOffsets = {@PartitionOffset(partition = "2", initialOffset = "1")})}, containerFactory = "containerFactory")
     public void getMessage(ConsumerRecord<?, ?> record, Acknowledgment acknowledgment) {
@@ -30,9 +31,24 @@ public class Consumer {
     @KafkaListener(groupId = "one", topics = {"topic1"}, containerFactory = "containerFactory")
     public void getMessage1(ConsumerRecord<?, ?> record, Acknowledgment acknowledgment) {
         // 消费的哪个topic、partition的消息,打印出消息内容
-        System.out.println("简单消费：" + record.topic() + "-" + record.partition() + "-" + record.key() + "-" + record.value());
+        System.out.println("简单消费one：" + record.topic() + "-" + record.partition() + "-" + record.key() + "-" + record.value());
         acknowledgment.acknowledge();
     }
+
+    @KafkaListener(groupId = "${app.group}", topics = {"topic1"}, containerFactory = "containerFactory")
+    public void getMessage13(ConsumerRecord<?, ?> record, Acknowledgment acknowledgment) {
+        // 消费的哪个topic、partition的消息,打印出消息内容
+        System.out.println("简单消费one2：" + record.topic() + "-" + record.partition() + "-" + record.key() + "-" + record.value());
+        acknowledgment.acknowledge();
+    }
+
+    @KafkaListener(groupId = "one1", topics = {"topic1"}, containerFactory = "containerFactory")
+    public void getMessage11(ConsumerRecord<?, ?> record, Acknowledgment acknowledgment) {
+        // 消费的哪个topic、partition的消息,打印出消息内容
+        System.out.println("简单消费one1：" + record.topic() + "-" + record.partition() + "-" + record.key() + "-" + record.value());
+        acknowledgment.acknowledge();
+    }
+
 
 
     @KafkaListener(id = "consumer1", groupId = "felix-group",
