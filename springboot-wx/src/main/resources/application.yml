@@ -8,10 +8,18 @@ spring:
 
 app:
   wx:
-    app-id: wxe8f195703df69ada
-    app-secret: e29c3c1e820f3510758987ad8d182b4e
-    app-url: https://api.weixin.qq.com/sns/jscode2session?appid={0}&secret={1}&js_code={2}&grant_type=authorization_code
-    accesstoken_url: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={0}&secret={1}
-    qrcode_url: https://api.weixin.qq.com/wxa/getwxacodeunlimit?access_token={0}
+    app-id: wxc6ebce156858e28f
+    app-secret: fb185de90a198241d1191d23187e84e0
+    pay:
+      appId: wxc6ebce156858e28f
+      mchId: 1610532911 # 商户号
+      mchKey: bjs7sSa0kMJwUYhsSQsF87mNsnvh7K3i #秘钥
+      apiv3Key: bjs7sSa0kMJwUYhsSQsF87mNsnvh7K3i
+      certSerialNo: 7D232FA57F969FE325B952975DA7EE97B5F11027
+      #subAppId: #子商户号
+      #subMchId: #子商户号
+      keyPath: classpath:/pay/wx/apiclient_cert.p12
+      privateKeyPath: classpath:/pay/wx/apiclient_key.pem
+      privateCertPath: classpath:/pay/wx/apiclient_cert.pem
 
 

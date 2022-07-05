@@ -76,6 +76,13 @@
             <artifactId>javase</artifactId>
             <version>3.1.0</version>
         </dependency>
+
+        <!--支付宝 -->
+        <dependency>
+            <groupId>com.alipay.sdk</groupId>
+            <artifactId>alipay-sdk-java</artifactId>
+            <version>4.22.22.ALL</version>
+        </dependency>
     </dependencies>
 
 
