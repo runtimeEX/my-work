@@ -8,18 +8,18 @@ spring:
 
 app:
   wx:
-    app-id: wxc6ebce156858e28f
-    app-secret: fb185de90a198241d1191d23187e84e0
+    app-id: wxc6ebce156858e2
+    app-secret: fb185de90a198241d1191d231
     pay:
-      appId: wxc6ebce156858e28f
-      mchId: 1610532911 # 商户号
-      mchKey: bjs7sSa0kMJwUYhsSQsF87mNsnvh7K3i #秘钥
-      apiv3Key: bjs7sSa0kMJwUYhsSQsF87mNsnvh7K3i
-      certSerialNo: 7D232FA57F969FE325B952975DA7EE97B5F11027
+      appId: wxc6ebce156858
+      mchId: 16105329 # 商户号
+      mchKey: bjs7sSa0kMJwUYhsSQsF87mNi #秘钥
+      apiv3Key: bjs7sSa0kMJwUYhsSQs7K3i
+      certSerialNo: 7D232FA57F969FE7EE97B5F11027
       #subAppId: #子商户号
       #subMchId: #子商户号
-      keyPath: classpath:/pay/wx/apiclient_cert.p12
-      privateKeyPath: classpath:/pay/wx/apiclient_key.pem
-      privateCertPath: classpath:/pay/wx/apiclient_cert.pem
+      keyPath: classpath:/pay/wx/apiclien12
+      privateKeyPath: classpath:/pay/wx/key.pem
+      privateCertPath: classpath:/pay/wx/apiccert.pem
 
 
