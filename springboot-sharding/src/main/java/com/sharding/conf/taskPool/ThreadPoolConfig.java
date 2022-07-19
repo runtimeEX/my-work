@@ -22,6 +22,6 @@ public class ThreadPoolConfig {
     @Bean
     public ExecutorService getThreadPool() {
         log.info("初始化线程池，核心线程数:{}", Runtime.getRuntime().availableProcessors());
-        return new ThreadPoolExecutor(Runtime.getRuntime().availableProcessors(), (Runtime.getRuntime().availableProcessors()) * 2, 20L, TimeUnit.SECONDS, new LinkedBlockingQueue<>(50));
+        return new ThreadPoolExecutor(8, (Runtime.getRuntime().availableProcessors()) * 2, 20L, TimeUnit.SECONDS, new LinkedBlockingQueue<>(50));
     }
 }

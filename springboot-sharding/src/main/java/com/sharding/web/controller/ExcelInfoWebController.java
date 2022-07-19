@@ -31,6 +31,6 @@ public class ExcelInfoWebController {
 
     @GetMapping("/excel")
     public void excel(HttpServletResponse httpServletResponse) throws IOException {
-        excelInfoWebService.export(httpServletResponse);
+        excelInfoWebService.sheetExport(httpServletResponse);
     }
 }
